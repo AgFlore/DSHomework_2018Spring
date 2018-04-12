@@ -21,6 +21,7 @@ def processAndEvaluate (*args):
 
 
 root = Tk()
+root.title('Python Calculator')
 tbox = Text(root,width=160,height=240)
 tbox.pack()
 tbox.insert(1.0,'''This my Calculator based on python. You can directly input your expression here.
